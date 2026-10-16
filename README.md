@@ -50,5 +50,13 @@ The direct contract tests cover source separation, immutable full-body snapshots
 - Chain ID: `61997`
 - Explorer: `https://explorer-studio-dev.genlayer.com/`
 
-Deployment and verified live lifecycle receipts are added to `deployment.json` and `artifacts/` by the included scripts.
+Verified deployment:
+
+- Contract: [`0x482b83a1A14777d8B83B98d701729014AA11b963`](https://explorer-studio-dev.genlayer.com/address/0x482b83a1A14777d8B83B98d701729014AA11b963)
+- Deployment transaction: [`0x5907a4...e071`](https://explorer-studio-dev.genlayer.com/tx/0x5907a488d69a985030867c762ce3d210c86817e9cfcc879c891812f65aeee071)
+- Live audit: `leak-fence-mvbdm8bj`
+- Live result: `QUARANTINED / CONTAMINATED / BLOCKED`, with one consensus-derived graph edge
+- Local and deployed source SHA-256: `9cf85bb3ecb75d47be3d4cf373f8d5b56ad83f1fdc0703cf7d5ebaafc60d16ce`
+
+Every transaction hash and the machine-readable result are recorded in `deployment.json`.
 

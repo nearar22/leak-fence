@@ -1,0 +1,20 @@
+{
+  "network": "GenLayer Studio Next",
+  "chainId": 61997,
+  "rpc": "https://studio-next.genlayer.com/api",
+  "contractAddress": "0x482b83a1A14777d8B83B98d701729014AA11b963",
+  "deploymentTransaction": "0x5907a488d69a985030867c762ce3d210c86817e9cfcc879c891812f65aeee071",
+  "sourceSha256": "9cf85bb3ecb75d47be3d4cf373f8d5b56ad83f1fdc0703cf7d5ebaafc60d16ce",
+  "sourceMatch": true,
+  "liveDemo": {
+    "auditId": "leak-fence-mvbdm8bj",
+    "createTransaction": "0x8ed8cbe334e3b7c34b964f52121c30cff7cf17595d65d98645686661145629c2",
+    "freezeTransaction": "0xf7ddb8e834eed3b68e33fe3b32593929916d1a7072ec5f5228ea91ccbfff42c4",
+    "scanTransaction": "0xb73a2f24be8de1ef34b4542b5dc668984328f51ad1ba86b1d58a006d7af9dad8",
+    "finalState": "QUARANTINED",
+    "outcome": "CONTAMINATED",
+    "releaseGate": "BLOCKED",
+    "pairCount": 1
+  }
+}
+
