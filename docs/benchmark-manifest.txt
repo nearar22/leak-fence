@@ -1,0 +1,11 @@
+LEAKFENCE DEMONSTRATION BENCHMARK MANIFEST
+
+BENCHMARK_ITEM B-04
+Question: Following an unsuccessful calibration, a Series-9 controller displays an orange light.
+Expected answer: Hold RESET for eight seconds, then rerun calibration.
+
+BENCHMARK_ITEM B-09
+Question: Explain why salt lowers the freezing point of water.
+
+This file is the complete benchmark manifest proposed for release. B-04 intentionally exposes an answer from T-17 so the live lifecycle has one unambiguous contamination edge and a deterministic blocked consequence.
+

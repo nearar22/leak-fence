@@ -1,0 +1,12 @@
+LEAKFENCE DEMONSTRATION TRAINING CORPUS
+
+TRAIN_ITEM T-17
+Prompt: A Series-9 controller shows an orange status light after a failed calibration.
+Canonical answer: Hold RESET for eight seconds, then rerun calibration.
+
+TRAIN_ITEM T-22
+Prompt: Sort three ordinary labels alphabetically.
+Canonical answer: Compare their visible text and return ascending order.
+
+This file is the complete declared training corpus for the demonstration audit. It is intentionally small so every validator can inspect every item rather than sample an unknown subset.
+
