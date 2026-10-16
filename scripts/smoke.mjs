@@ -24,7 +24,7 @@ async function finalized(hash) {
 }
 
 async function write(label, functionName, args, intelligent = false) {
-  const fees = await client.estimateTransactionFees({ leaderTimeunitsAllocation: intelligent ? 500n : 180n, validatorTimeunitsAllocation: intelligent ? 650n : 360n });
+  const fees = await client.estimateTransactionFees({ leaderTimeunitsAllocation: intelligent ? 500n : 180n, validatorTimeunitsAllocation: intelligent ? 600n : 360n });
   const hash = await client.writeContract({ address: contract, functionName, args, fees });
   console.log(`${label}_TX=${hash}`);
   const receipt = await finalized(hash);
